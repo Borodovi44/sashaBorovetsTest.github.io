@@ -86,3 +86,12 @@ background: url(img/bg2.jpg) center no-repeat ;
 .social-icons li img:{
     background-color: azure;
 }
+
+.social-icons li img:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+    background:#53ea93;
+    border-radius: 100%;
+}
+
